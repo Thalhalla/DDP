@@ -1,7 +1,7 @@
 FROM    debian:jessie
 MAINTAINER Josh Cox <josh 'at' webhosting coop>
 
-ENV DDP_updated 20151116
+ENV DDP_updated 20151123
 RUN echo "deb http://mirrors.liquidweb.com/debian/ jessie main contrib non-free" > /etc/apt/sources.list
 RUN echo "deb-src http://mirrors.liquidweb.com/debian/ jessie main contrib non-free" >> /etc/apt/sources.list
 
